@@ -8,7 +8,7 @@ function countUppercaseLetters(str) {
         count++;
         }
     }
-    
+
     return count;
 }
 
@@ -100,3 +100,4 @@ function encryptSentence(sentence) {
     return retr.split('').reverse().join('');
 }
 
+export {countUppercaseLetters, combineStrings, containsSubstring, replaceSubstring, countWordsWithSameLetters, countWordsWithA, normalizeSpaces, extractFileName, encryptSentence};
